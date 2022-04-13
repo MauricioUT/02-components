@@ -1,6 +1,16 @@
 <ion-header>
   <ion-toolbar>
+
+    <ion-buttons slot="start"> <!--existen 4 posiciones horizontales para el slot(acomoda elementos) start,primary, secondary y end -->
+      <ion-back-button defaultHref="/" 
+       text="Atras" color="primary"
+       mode="ios"><!--con el /  hace que si no existen paginas anteriores lo regrese al inicio, con el mode se forza a toma el estilo de un SO(ios-> iphone o cupertino, md -> material desing android )-->
+      </ion-back-button>
+    </ion-buttons>
+
     <ion-title>action-sheet</ion-title>
+
+
   </ion-toolbar>
 </ion-header>
 
